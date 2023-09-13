@@ -1,0 +1,36 @@
+.Link{
+    Color:red;
+    text-decoration: underline;
+}
+.Link:visited{
+    Color:green;
+    text-decoration: underline;
+}
+.Link:hover{
+    Color:Yellow;
+    text-decoration: underline;
+}
+
+.Notice{
+    Font-style:italic;
+    color:blue
+}
+h1{
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: blue;
+    color: green;
+}
+h3{
+    background-color: pink;
+    color: yellow;
+}
+h4{
+    background-color:brown;
+    color: blueviolet;
+}
+.CTKINFO{
+    font-weight:900
+}
