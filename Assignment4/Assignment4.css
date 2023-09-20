@@ -1,0 +1,60 @@
+*{
+    Font-family: Helvetica;
+}
+body{        
+    background-image: url(Background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.Link{
+    Color:red;
+    text-decoration: underline;
+}
+.Link:visited{
+    Color:green;
+    text-decoration: underline;
+}
+.Link:hover{
+    Color:Yellow;
+    text-decoration: underline;
+}
+
+.Notice{
+    Font-style:italic;
+    color:blue
+}
+h1{
+    color: orange;
+    Font-weight: 400;
+    font-style: italic;
+}
+h2{
+    color: orange;
+    Font-weight: 400;
+    font-style: italic;
+}
+h3{
+    color: orange;
+    Font-weight: 400;
+    font-style: italic;
+}
+h4{
+    color: orange;
+    Font-weight: 400;
+    font-style: italic;
+}
+.CTKINFO{
+    font-weight:900
+}
+.Center {
+    text-align: center;
+  }
+#Justify{
+    text-align: justify;
+}
+
+img{
+    padding:5px;
+    border:10px solid black;
+    background-color: yellow;
+}
