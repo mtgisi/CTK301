@@ -1,0 +1,142 @@
+*{
+    background-image: url(a62.png);
+    background-size: auto;
+}
+#Wrap {
+    background-color: white;
+    border: 5px solid black;
+    margin: 1em auto;
+    width: 960px;
+    background-image: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+header{
+    background-color: black;
+    background-image: none;
+    grid-column: span 4;
+    margin: 10px;
+}
+h1 {
+    color: white;
+    background-color: black;
+    font-family: Helvetica;
+    font-weight: 100;
+    background-image: none;
+    padding: 7px;
+}
+h2 {
+    background-color: white;
+    border-bottom: 5px solid black;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 5px;
+    background-image: none;
+}
+nav {
+    background-color: white;
+    grid-column: span 1;
+    background-image: none;
+    margin: 10px;
+}
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-image: none;
+}
+nav li {
+    background-color: rgb(236, 10, 10);
+    margin-top: 10px;
+    width: 210px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-image: none;
+}
+nav li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-image: none;
+}
+nav li a:hover {
+    background-color: rgb(91, 6, 6);
+    text-decoration: none;
+}
+.BrickWall {
+    background-color: white;
+    border: 5px solid black;
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+    background-image: none;
+}
+.BrickWall img {
+    scale: 100;
+}
+.MainText a { 
+    color:rgb(236, 10, 10);
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: none;
+}
+.MainText a:hover { 
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+    background-image: none;
+}
+.MainText a:visited { 
+    color:rgb(236, 10, 10);
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: none;
+}
+.MainText p {
+    background-color: white;
+    background-image: none;
+    padding: 3px;
+}
+.MainText {
+    background-color: white;
+    background-image: none;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin: 10px;
+}
+.topparagraph p {
+    background-color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: justify;
+    background-image: none;
+}
+.topparagraph {
+    background-color: white;
+    background-image: none;
+}
+.bottomparagraph {
+    background-color: white;
+    background-image: none;
+}
+footer {
+    background-color:  rgb(236, 10, 10);
+    border-top: 5px solid black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    grid-column: span 4;
+    background-image: none;
+    padding: 5px;
+    margin: 0px;
+}
+footer p {
+    background-color: rgb(236, 10, 10);
+    background-image: none;
+}
