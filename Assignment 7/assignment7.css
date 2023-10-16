@@ -1,0 +1,198 @@
+*{
+    background-image: url(a62.png);
+    background-size: auto;
+}
+#Wrap {
+    background-color: white;
+    border: 5px solid #00459f;
+    margin: 1em auto;
+    width: 960px;
+    background-image: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#Wrap2 {
+    background-color: white;
+    margin: 1em auto;
+    width: 960px;
+    background-image: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+header{
+    background-image: linear-gradient(#0086e5,#0049a1);
+    grid-column: span 4;
+}
+h1 a{
+    color: #49afeb;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 100;
+    background-image: none;
+    text-decoration: none;
+    padding: 10px;
+}
+h2{
+    font-weight: 600;
+}
+nav {
+    grid-column: span 4;
+    background-image: linear-gradient(#0086e5,#0049a1);
+}
+nav ul {
+    border-bottom: 5px solid #0049a1;
+    margin: 0;
+    Padding: 0;
+}
+nav li {
+    width: 240px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-right: 5px solid #0049a1;
+}
+nav li a {
+    color: #73dafd;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+Nav li a:hover{
+    background-image: linear-gradient(#0049a1,#0086e5);
+}
+.welcome {
+    background-color:#add9e6;
+    grid-column: span 1;
+    text-align: left;
+    Padding: 0;
+}
+.lorem {
+    background-color:#add9e6;
+    grid-column: span 5-5;
+    text-align: left;
+    Padding: 0;
+}
+.lorem p{
+    margin-top: 25px;
+}
+.aboutsite {
+    Margin-left: 15px;
+    text-align:justify;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-right: 20px;
+}
+.ROCKIMG {
+    border: 3px solid #0049a1;
+    float: right;
+    background-image: none;
+    Margin-left: 10px;
+    Margin-bottom: 10px;
+}
+.aboutsite h2{
+    color:#0049a1;
+    font-weight: 200px;
+    text-align: left;
+    border-bottom: 3px solid #0049a1;
+}
+.aboutsite p{
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+.welcometext {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+.EEAAOIMG {
+    border: 3px solid #0049a1;
+    float: left;
+    margin-right: 5px;
+    background-image: none;
+}
+.welcome h2{
+    color:#0049a1;
+    font-weight: 200px;
+    text-align: left;
+    border-bottom: 3px solid #0049a1;
+    margin: 20px;
+}
+.anotherh2 {
+    Margin-left: 15px;
+    text-align:justify;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.anotherh2 h2{
+    color:#0049a1;
+    font-weight: 200px;
+    text-align: left;
+    border-bottom: 3px solid #0049a1;
+    margin-Right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.anotherh2 p{
+    font-family: Georgia;
+    Font-Weight: bold;
+    margin-right: 20px;
+}
+.Evelyn {
+    grid-column: span 1;
+    text-align: left;
+    font-family: helvetica;
+    margin-left: 15px;
+    Padding: 0px;
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+.Waymond {
+    grid-column: span 1;
+    text-align: left;
+    font-family: helvetica;
+    margin: 0px;
+    Padding: 0px;
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+.Joy {
+    grid-column: span 1;
+    text-align: left;
+    margin-right: 15px;
+    Padding: 0px;
+    font-family: Georgia;
+    Font-Weight: bold;
+}
+.GalleryTitle {
+    color: darkblue;
+    border-bottom: 5px solid darkblue;
+    text-align:left;
+    font-family: helvetica;
+    font-weight: 400px;
+}
+.GalleryImage {
+    width: 275px;
+    height: 275px;
+  }
+
+.Linktext{
+    color: red;
+    text-decoration: none;
+
+}
+footer {
+    background-color:  rgb(236, 10, 10);
+    border-top: 5px solid #00459f;
+    text-align: Left;
+    grid-column: span 4;
+    background-image: none;
+    padding: 10px;
+}
+.HighlightedTab {
+    color: white;
+}
