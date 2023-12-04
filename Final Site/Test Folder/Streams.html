@@ -27,37 +27,27 @@
     
     <p class="Lorem">I Produce, Cast, Run, Observe, and create content on many streams, such as OW_Goose, RedbirdEsports, RedbirdOW, EdgewoodEsports, LeftRightGnight and many more!</p> <div id="twitch-embed"></div>
 
- <!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed"></div>
-
-<!-- Load the Twitch embed script -->
-<script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-<!-- Create a Twitch.Embed object that will render within the "twitch-embed" element. -->
-<script type="text/javascript">
-  var embed = new Twitch.Embed("twitch-embed", {
-    width: 854,
-    height: 480,
-    channel: "ow_goose",
-    layout: "video",
-    video: "1981070227",
-    autoplay: false,
-    parent:["Streams.html"],
-  });
-  embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-    var player = embed.getPlayer();
-    player.play();
-  });
-</script>
-    <div id="twitch-embed"></div>
+  </script>
+  <div id="twitch-embed"></div>
 
 <!-- Load the Twitch embed script -->
 <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
 <!-- Create a Twitch.Player object. This will render within the placeholder div -->
 <script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    video: "1981070227"
+new Twitch.Player("twitch-embed", {
+  video: "1981070227",
+  width: 854,
+  height: 480,
+  channel: "ow_goose",
+  layout: "video",
+  video: "1981070227",
+  autoplay: false,
+  parent:["Streams.html"],
+});
+  embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+    var player = embed.getPlayer();
+    player.play();
   });
 </script>
 </div>
