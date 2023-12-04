@@ -35,7 +35,8 @@ new Twitch.Player("twitch-embed", {
   video: "1981070227",
   width: 480,
   height: 270,
-  autoplay: false,
+  muted: true,
+  autoplay: true,
   parent:["Streams.html"],
 });
   embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
@@ -51,7 +52,8 @@ new Twitch.Player("twitch-embed", {
 video: "1971469927",
 width: 480,
 height: 270,
-autoplay: false,
+muted: true,
+autoplay: true,
 parent:["Streams.html"],
 });
 embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
